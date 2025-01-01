@@ -1,0 +1,6 @@
+[submodule "project/simon-game"]
+	path = project/simon-game
+	url = https://github.com/SushilDhungana49/simon-game
+[submodule "project/to-do-list"]
+	path = project/to-do-list
+	url = https://github.com/SushilDhungana49/to-do-list
