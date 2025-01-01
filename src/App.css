@@ -1,0 +1,23 @@
+* {
+  font-size: 1.1rem;
+}
+
+h1:not(#title) {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+h1:not(#title) {
+  border-bottom: 1px;
+}
+p {
+  text-align: justify;
+}
+body {
+}
+
+@media screen and (max-width: 1024px) {
+  h1:not(#title) {
+    text-align: center;
+  }
+}
