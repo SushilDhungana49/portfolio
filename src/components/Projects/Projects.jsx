@@ -15,12 +15,12 @@ const Projects = () => {
           <Project
             link={toDo}
             title="To Do List"
-            url="to-do-list.sushildhungana49.com.np"
+            url="https://to-do-list.sushildhungana49.com.np"
           />
           <Project
             link={simon}
             title="Simon Game"
-            url="simon-game.sushildhungana49.com.np"
+            url="https://simon-game.sushildhungana49.com.np"
           />{" "}
         </div>
       </div>
