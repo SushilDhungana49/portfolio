@@ -12,11 +12,15 @@ const Projects = () => {
         <h1>Projects</h1>
         <div className="project">
           <Project link={portfolio} title="Portfolio" url="/" />
-          <Project link={toDo} title="To Do List" url="/project/to-do-list" />
+          <Project
+            link={toDo}
+            title="To Do List"
+            url="to-do-list.sushildhungana49.com.np"
+          />
           <Project
             link={simon}
             title="Simon Game"
-            url="/project/simon-game"
+            url="simon-game.sushildhungana49.com.np"
           />{" "}
         </div>
       </div>
