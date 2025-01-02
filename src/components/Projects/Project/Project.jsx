@@ -5,7 +5,15 @@ import "./Project.css";
 const Project = (props) => {
   return (
     <div className="prop">
-      <a href={props.url} target="_blank">
+      <a
+        href={props.url}
+        rel="noopener noreferrer"
+        target={
+          props.link === "https://www.sushildhungana49.com.np"
+            ? "_self"
+            : "_blank"
+        }
+      >
         <img src={props.link} alt={props.title} />
       </a>
 
