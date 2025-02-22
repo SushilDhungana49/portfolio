@@ -3,8 +3,6 @@ import Project from "./Project/Project";
 import toDo from "../../assets/to-do.png";
 import simon from "../../assets/simon.png";
 import portfolio from "../../assets/portfolio.png";
-import shopper from "../../assets/shopper.png";
-import shopperAdmin from "../../assets/shopperAdmin.png";
 import "./Projects.css";
 
 const Projects = () => {
@@ -13,16 +11,6 @@ const Projects = () => {
       <div className="projects">
         <h1>Projects</h1>
         <div className="project">
-          <Project
-            link={shopper}
-            title="Shopper Frontend"
-            url="https://shopper.sushildhungana49.com.np"
-          />
-          <Project
-            link={shopperAdmin}
-            title="Shopper Admin Panel"
-            url="https://shopperadmin.sushildhungana49.com.np"
-          />
           <Project link={portfolio} title="Portfolio" url="/" />
           <Project
             link={toDo}
@@ -33,7 +21,7 @@ const Projects = () => {
             link={simon}
             title="Simon Game"
             url="https://simon-game.sushildhungana49.com.np"
-          />
+          />{" "}
         </div>
       </div>
     </section>

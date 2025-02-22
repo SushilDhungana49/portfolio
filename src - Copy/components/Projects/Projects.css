@@ -1,7 +1,3 @@
-.projects {
-  margin-bottom: 10px;
-}
-
 @media screen and (max-width: 1024px) {
   .project {
     justify-content: center;
