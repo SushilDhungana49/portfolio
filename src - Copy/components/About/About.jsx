@@ -10,7 +10,6 @@ import sql from "../../assets/sql.png";
 import js from "../../assets/js.svg";
 import node from "../../assets/nodejs.webp";
 import express from "../../assets/express.png";
-import mongoose from "../../assets/mongoose.png";
 import react from "../../assets/react.svg";
 
 const About = () => {
@@ -52,10 +51,6 @@ const About = () => {
         <div className="img-box">
           <img src={express} alt="express"></img>
           <p className="caption">Express.js</p>
-        </div>
-        <div className="img-box">
-          <img src={mongoose} alt="mongoose"></img>
-          <p className="caption">Mongoose</p>
         </div>
         <div className="img-box">
           <img src={c} alt="c"></img>

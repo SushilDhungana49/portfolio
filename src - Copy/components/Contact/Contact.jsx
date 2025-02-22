@@ -5,7 +5,6 @@ import website from "../../assets/website.png";
 import github from "../../assets/github.svg";
 import facebook from "../../assets/facebook.svg";
 import linkedin from "../../assets/linkedin.svg";
-import { toast } from "react-toastify";
 import "./Contact.css";
 
 const Contact = () => {
@@ -13,6 +12,7 @@ const Contact = () => {
 
   const onSubmit = async (event) => {
     event.preventDefault();
+    setResult("Sending....");
     const formData = new FormData(event.target);
 
     formData.append("access_key", "2e750083-ed25-4af7-9b18-e5b44705f0a3");
@@ -25,7 +25,7 @@ const Contact = () => {
     const data = await response.json();
 
     if (data.success) {
-      toast.success("Form Submitted Successfully");
+      setResult("Form Submitted Successfully");
       event.target.reset();
     } else {
       console.log("Error", data);
@@ -41,9 +41,6 @@ const Contact = () => {
           <li>
             <img src={address} className="icon" /> Kalanki, Kathmandu, Nepal
           </li>
-          <li>
-            <img src={email} className="icon" /> contact@sushildhungana49.com.np
-          </li>{" "}
           <li>
             <img src={email} className="icon" /> sushildhungana49@gmail.com
           </li>
