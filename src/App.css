@@ -3,8 +3,8 @@
 }
 
 h1:not(#title) {
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 h1:not(#title) {
@@ -12,8 +12,6 @@ h1:not(#title) {
 }
 p {
   text-align: justify;
-}
-body {
 }
 
 @media screen and (max-width: 1024px) {
