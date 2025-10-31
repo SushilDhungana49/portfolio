@@ -5,6 +5,7 @@ import simon from "../../assets/simon.png";
 import portfolio from "../../assets/portfolio.png";
 import shopper from "../../assets/shopper.png";
 import shopperAdmin from "../../assets/shopperAdmin.png";
+import soc from "../../assets/soc.png";
 import "./Projects.css";
 
 const Projects = () => {
@@ -13,6 +14,11 @@ const Projects = () => {
       <div className="projects">
         <h1>Projects</h1>
         <div className="project">
+          <Project
+            link={soc}
+            title="SOC Home Lab"
+            url="https://github.com/SushilDhungana49/SOC-Home-Lab/"
+          />
           <Project
             link={shopper}
             title="Shopper Frontend"

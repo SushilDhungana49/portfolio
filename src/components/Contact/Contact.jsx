@@ -5,6 +5,7 @@ import website from "../../assets/website.png";
 import github from "../../assets/github.svg";
 import facebook from "../../assets/facebook.svg";
 import linkedin from "../../assets/linkedin.svg";
+import credly from "../../assets/credly.png";
 import { toast } from "react-toastify";
 import "./Contact.css";
 
@@ -84,6 +85,17 @@ const Contact = () => {
             >
               {" "}
               LinkedIn{" "}
+            </a>
+          </li>
+          <li>
+            <img src={credly} className="icon" />{" "}
+            <a
+              href="https://www.credly.com/users/sushil-dhungana.8f383175/badges#credly"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {" "}
+              Credly{" "}
             </a>
           </li>
         </ul>
