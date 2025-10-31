@@ -14,6 +14,7 @@ a:hover {
   margin-right: 20px;
   filter: brightness(0%) invert();
   width: 30px;
+  border-radius: 3px;
 }
 
 .contact ul {
