@@ -39,8 +39,14 @@ const About = () => {
         development and security, applying my developer mindset to create
         secure, efficient, and resilient digital systems.
       </p>
-      <h1>Course Completion</h1>
+      <h1>Certifications & Course Completions</h1>
       <div className="languages">
+        <a href="https://imgur.com/a/VwNLXOd" target="blank">
+          <div className="img-box">
+            <img src={cc} alt="Certified in Cybersecurity"></img>
+            <p className="caption">Certified in Cybersecurity</p>
+          </div>{" "}
+        </a>
         <a href="https://imgur.com/a/lnQIhhB" target="blank">
           <div className="img-box">
             <img src={junior} alt="Junior Cybersecurity Pathway"></img>
@@ -63,12 +69,6 @@ const About = () => {
           <div className="img-box">
             <img src={endpoint} alt="endpoint security"></img>
             <p className="caption">Endpoint Security</p>
-          </div>{" "}
-        </a>
-        <a href="https://imgur.com/a/VhRNW8G" target="blank">
-          <div className="img-box">
-            <img src={cc} alt="Certified in Cybersecurity"></img>
-            <p className="caption">Certified in Cybersecurity</p>
           </div>{" "}
         </a>
       </div>
