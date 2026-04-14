@@ -13,6 +13,7 @@ import express from "../../assets/express.png";
 import junior from "../../assets/junior.png";
 import endpoint from "../../assets/endpoint.png";
 import defense from "../../assets/defense.png";
+import sbt from "../../assets/sbt.png";
 import cc from "../../assets/cc.png";
 import threat from "../../assets/threat.png";
 import nextjs from "../../assets/nextjs.png";
@@ -69,6 +70,18 @@ const About = () => {
           <div className="img-box">
             <img src={endpoint} alt="endpoint security"></img>
             <p className="caption">Endpoint Security</p>
+          </div>{" "}
+        </a>
+         <a href="https://imgur.com/a/wOLAooN" target="blank">
+          <div className="img-box">
+            <img src={sbt} alt="OSINT"></img>
+            <p className="caption">OSINT</p>
+          </div>
+        </a>
+        <a href="https://imgur.com/a/o5Hu0yx" target="blank">
+          <div className="img-box">
+            <img src={sbt} alt="Threat Hunting"></img>
+            <p className="caption">Threat Hunting</p>
           </div>{" "}
         </a>
       </div>
