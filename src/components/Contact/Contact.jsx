@@ -40,7 +40,7 @@ const Contact = () => {
 
         <ul>
           <li>
-            <img src={address} className="icon" /> Kalanki, Kathmandu, Nepal
+            <img src={address} className="icon" /> 81-86 Courallie Avenue, Homebush West, NSW
           </li>
           <li>
             <img src={email} className="icon" /> contact@sushildhungana49.com.np
