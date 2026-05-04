@@ -1,47 +1,54 @@
 import React from "react";
 import "./About.css";
-import c from "../../assets/c.png";
-import cpp from "../../assets/cpp.svg";
 import ai from "../../assets/ai.svg";
-import ps from "../../assets/ps.svg";
-import html from "../../assets/html.svg";
-import css from "../../assets/css.svg";
-import sql from "../../assets/sql.png";
-import js from "../../assets/js.svg";
-import node from "../../assets/nodejs.webp";
-import express from "../../assets/express.png";
-import junior from "../../assets/junior.png";
-import endpoint from "../../assets/endpoint.png";
-import defense from "../../assets/defense.png";
-import sbt from "../../assets/sbt.png";
-import cc from "../../assets/cc.png";
-import threat from "../../assets/threat.png";
-import nextjs from "../../assets/nextjs.png";
-import wazuh from "../../assets/wazuh.png";
-import shuffle from "../../assets/shuffle.png";
 import bash from "../../assets/bash.png";
-import oracle from "../../assets/oracle.jpeg";
+import c from "../../assets/c.png";
+import cc from "../../assets/cc.png";
+import cpp from "../../assets/cpp.svg";
+import css from "../../assets/css.svg";
+import defense from "../../assets/defense.png";
+import endpoint from "../../assets/endpoint.png";
+import express from "../../assets/express.png";
+import html from "../../assets/html.svg";
+import junior from "../../assets/junior.png";
+import js from "../../assets/js.svg";
 import mongoose from "../../assets/mongoose.png";
+import nec from "../../assets/nec.jpeg";
+import nextjs from "../../assets/nextjs.png";
+import node from "../../assets/nodejs.webp";
+import oracle from "../../assets/oracle.jpeg";
+import ps from "../../assets/ps.svg";
 import react from "../../assets/react.svg";
+import sbt from "../../assets/sbt.png";
+import shuffle from "../../assets/shuffle.png";
+import sql from "../../assets/sql.png";
+import threat from "../../assets/threat.png";
+import wazuh from "../../assets/wazuh.png";
 
 const About = () => {
   return (
     <section className="container">
       <h1> About Me</h1>
       <p className="about">
-        I’m a technology enthusiast with a background in full-stack web
+        I’m a technology enthusiastic computer engineer with a background in full-stack web
         development and a growing specialization in cybersecurity. My journey
         began with building responsive, high-performance web applications, which
         gave me a strong foundation in system logic, networking, and
         problem-solving. Today, I’m focused on exploring how systems can be
         protected rather than just built — from monitoring threats using SIEM
-        tools like Wazuh to automating incident response workflows and
+        tools to automating incident response workflows and
         understanding SOC operations. I enjoy bridging the gap between
         development and security, applying my developer mindset to create
         secure, efficient, and resilient digital systems.
       </p>
       <h1>Certifications & Course Completions</h1>
       <div className="languages">
+        <a href="https://imgur.com/a/VwNLXOd" target="blank">
+          <div className="img-box">
+            <img src={nec} alt="Registered Engineer"></img>
+            <p className="caption">Registered Engineer</p>
+          </div>{" "}
+        </a>
         <a href="https://imgur.com/a/VwNLXOd" target="blank">
           <div className="img-box">
             <img src={cc} alt="Certified in Cybersecurity"></img>
