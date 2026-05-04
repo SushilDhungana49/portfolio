@@ -43,7 +43,7 @@ const About = () => {
       </p>
       <h1>Certifications & Course Completions</h1>
       <div className="languages">
-        <a href="https://imgur.com/a/VwNLXOd" target="blank">
+        <a href="https://imgur.com/a/SdpYPCU" target="blank">
           <div className="img-box">
             <img src={nec} alt="Registered Engineer"></img>
             <p className="caption">Registered Engineer</p>
