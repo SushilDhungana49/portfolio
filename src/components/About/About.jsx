@@ -10,7 +10,6 @@ import css from "../../assets/css.svg";
 import defense from "../../assets/defense.png";
 import endpoint from "../../assets/endpoint.png";
 import express from "../../assets/express.png";
-import honeypot from "../../assets/honeypot.jpg";
 import html from "../../assets/html.svg";
 import junior from "../../assets/junior.png";
 import js from "../../assets/js.svg";
@@ -95,17 +94,14 @@ Currently building depth in SIEM tooling, detection engineering, and incident re
           <img src={sentinel} alt="MS Sentinel"></img>
           <p className="caption">Microsoft Sentinel</p>
         </div>
-        <div className="languages">
         <div className="img-box">
           <img src={azure} alt="MS Azure"></img>
           <p className="caption">Microsoft Azure</p>
         </div>
-          <div className="languages">
         <div className="img-box">
           <img src={kql} alt="KQL"></img>
           <p className="caption">Kusto Query Language (KQL)</p>
         </div>
-      <div className="languages">
         <div className="img-box">
           <img src={wazuh} alt="wazuh"></img>
           <p className="caption">Wazuh</p>
