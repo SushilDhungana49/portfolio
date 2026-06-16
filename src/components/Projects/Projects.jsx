@@ -1,7 +1,5 @@
 import React from "react";
 import Project from "./Project/Project";
-import "./Projects.css";
-
 import honeypot from "../../assets/honeypot.jpg";
 import portfolio from "../../assets/portfolio.png";
 import shopper from "../../assets/shopper.png";
@@ -9,6 +7,7 @@ import shopperAdmin from "../../assets/shopperAdmin.png";
 import simon from "../../assets/simon.png";
 import soc from "../../assets/soc.png";
 import toDo from "../../assets/to-do.png";
+import "./Projects.css";
 
 const Projects = () => {
   return (
