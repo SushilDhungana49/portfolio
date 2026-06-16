@@ -20,7 +20,6 @@ const Projects = () => {
             title="Azure Honeypot SOC Lab"
             url="https://github.com/SushilDhungana49/Azure-Honeypot-monitoring-with-Sentinel"
           />
-        <div className="project">
           <Project
             link={soc}
             title="SOC Home Lab"
