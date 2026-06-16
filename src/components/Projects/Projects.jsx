@@ -1,18 +1,26 @@
 import React from "react";
 import Project from "./Project/Project";
-import toDo from "../../assets/to-do.png";
-import simon from "../../assets/simon.png";
+import "./Projects.css";
+
+import honeypot from "../../assets/honeypot.jpg";
 import portfolio from "../../assets/portfolio.png";
 import shopper from "../../assets/shopper.png";
 import shopperAdmin from "../../assets/shopperAdmin.png";
+import simon from "../../assets/simon.png";
 import soc from "../../assets/soc.png";
-import "./Projects.css";
+import toDo from "../../assets/to-do.png";
 
 const Projects = () => {
   return (
     <section>
       <div className="projects">
         <h1>Projects</h1>
+        <div className="project">
+          <Project
+            link={honeypot}
+            title="Azure Honeypot SOC Lab"
+            url="https://github.com/SushilDhungana49/Azure-Honeypot-monitoring-with-Sentinel"
+          />
         <div className="project">
           <Project
             link={soc}
