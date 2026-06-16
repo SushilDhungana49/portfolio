@@ -1,6 +1,7 @@
 import React from "react";
 import "./About.css";
 import ai from "../../assets/ai.svg";
+import azure from "../../assets/azure.png";
 import bash from "../../assets/bash.png";
 import c from "../../assets/c.png";
 import cc from "../../assets/cc.png";
@@ -9,9 +10,11 @@ import css from "../../assets/css.svg";
 import defense from "../../assets/defense.png";
 import endpoint from "../../assets/endpoint.png";
 import express from "../../assets/express.png";
+import honeypot from "../../assets/honeypot.jpg";
 import html from "../../assets/html.svg";
 import junior from "../../assets/junior.png";
 import js from "../../assets/js.svg";
+import kql from "../../assets/kql.png";
 import mongoose from "../../assets/mongoose.png";
 import nec from "../../assets/nec.jpeg";
 import nextjs from "../../assets/nextjs.png";
@@ -20,6 +23,7 @@ import oracle from "../../assets/oracle.jpeg";
 import ps from "../../assets/ps.svg";
 import react from "../../assets/react.svg";
 import sbt from "../../assets/sbt.png";
+import sentinel from "../../assets/sentinel.jpg";
 import shuffle from "../../assets/shuffle.png";
 import sql from "../../assets/sql.png";
 import threat from "../../assets/threat.png";
@@ -30,16 +34,9 @@ const About = () => {
     <section className="container">
       <h1> About Me</h1>
       <p className="about">
-        I’m a technology enthusiastic computer engineer with a background in full-stack web
-        development and a growing specialization in cybersecurity. My journey
-        began with building responsive, high-performance web applications, which
-        gave me a strong foundation in system logic, networking, and
-        problem-solving. Today, I’m focused on exploring how systems can be
-        protected rather than just built — from monitoring threats using SIEM
-        tools to automating incident response workflows and
-        understanding SOC operations. I enjoy bridging the gap between
-        development and security, applying my developer mindset to create
-        secure, efficient, and resilient digital systems.
+       Cybersecurity-focused computer engineer building hands-on SOC and threat detection experience. I am passionate about analyzing real attack traffic, writing queries and detection rules, mapping techniques to MITRE ATT&CK, and producing evidence-based investigation reports.
+I focus on the analytical side of security: separating signal from noise in logs, correlating data to confirm or rule out compromise, and tuning detections to cut false positives. My development background gives me a practical grasp of how systems behave under the hood, which I apply to thinking like an attacker and defending like an analyst.
+Currently building depth in SIEM tooling, detection engineering, and incident response — aiming to contribute to a SOC or blue team.
       </p>
       <h1>Certifications & Course Completions</h1>
       <div className="languages">
@@ -93,6 +90,21 @@ const About = () => {
         </a>
       </div>
       <h1> Skills</h1>
+      <div className="languages">
+        <div className="img-box">
+          <img src={sentinel} alt="MS Sentinel"></img>
+          <p className="caption">Microsoft Sentinel</p>
+        </div>
+        <div className="languages">
+        <div className="img-box">
+          <img src={azure} alt="MS Azure"></img>
+          <p className="caption">Microsoft Azure</p>
+        </div>
+          <div className="languages">
+        <div className="img-box">
+          <img src={kql} alt="KQL"></img>
+          <p className="caption">Kusto Query Language (KQL)</p>
+        </div>
       <div className="languages">
         <div className="img-box">
           <img src={wazuh} alt="wazuh"></img>
