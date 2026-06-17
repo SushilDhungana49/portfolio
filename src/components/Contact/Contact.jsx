@@ -1,11 +1,11 @@
 import React from "react";
 import address from "../../assets/address.jpg";
+import credly from "../../assets/credly.png";
 import email from "../../assets/envelope.png";
 import website from "../../assets/website.png";
 import github from "../../assets/github.svg";
 import facebook from "../../assets/facebook.svg";
 import linkedin from "../../assets/linkedin.svg";
-import credly from "../../assets/credly.png";
 import { toast } from "react-toastify";
 import "./Contact.css";
 
