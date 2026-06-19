@@ -6,7 +6,6 @@ import shopper from "../../assets/shopper.png";
 import shopperAdmin from "../../assets/shopperAdmin.png";
 import simon from "../../assets/simon.png";
 import soc from "../../assets/soc.png";
-import toDo from "../../assets/to-do.png";
 import "./Projects.css";
 
 const Projects = () => {
@@ -36,11 +35,6 @@ const Projects = () => {
             url="https://shopperadmin.sushildhungana49.com.np"
           />
           <Project link={portfolio} title="Portfolio" url="/" />
-          <Project
-            link={toDo}
-            title="To Do List"
-            url="https://to-do-list.sushildhungana49.com.np"
-          />
           <Project
             link={simon}
             title="Simon Game"
